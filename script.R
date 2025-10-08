@@ -3,7 +3,7 @@ library(ggplot2)
 
 # filter
 filtered_mtcars <- mtcars %>% 
-  filter(cyl > 5) 
+  filter(cyl > 4) 
 
 # plot
 filtered_mtcars %>% 

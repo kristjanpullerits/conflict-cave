@@ -8,4 +8,5 @@ filtered_mtcars <- mtcars %>%
 # plot
 filtered_mtcars %>% 
   ggplot(aes(x = cyl, y = hp))+
-  geom_point()
+  geom_point()+
+  geom_smooth()
